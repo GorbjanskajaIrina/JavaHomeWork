@@ -9,6 +9,7 @@ public class Interval {
 
         System.out.println("Please, enter a number");
         number= scan.nextInt();
+
         if(number>=0 && number<=14) {
             System.out.println("The number is from interval [0-14]");
         }
@@ -22,7 +23,7 @@ public class Interval {
             System.out.println("The number is from interval [51-100]");
         }
         if(number>100 || number<0) {
-            System.out.println("The number isn't from any of intervals");
+            System.out.println("The number isn't from any of intervals [0-14] [15-35] [36-50] [51-100]");
         }
     }
 }
