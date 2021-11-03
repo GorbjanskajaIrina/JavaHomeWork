@@ -33,23 +33,28 @@ public class Reader {
             System.out.println(title);
     }
     public void takeBook(Book ... books) {
-        System.out.println(fullName + " взял книги" );
+        System.out.println(fullName + " взял книги:" );
         for (Book book: books)
-            System.out.println(book);
-
+            System.out.println(book.getInfo());
     }
+
     public void returnBook(int numberOfBooks) {
         System.out.println(fullName + " вернул " + numberOfBooks + " книг" );
     }
 
     public void returnBook(String...titles) {
-        System.out.println(fullName + " вернул: " );
-        for (String title: titles)
+        System.out.println(fullName + " вернул: ");
+        for (String title : titles)
             System.out.println(title);
-
-
     }
-    String getInfo() {
+
+    public void returnBook(Book...books) {
+        System.out.println(fullName + " вернул книги: ");
+        for (Book book : books)
+            System.out.println(book.getInfo());
+    }
+
+  String getInfo() {
         return  fullName + " " + libraryPass + " " + faculty +" " + dateOfBirth + " " + telephoneNumber;
 
     }
