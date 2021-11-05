@@ -9,9 +9,10 @@ public class Animal {
         this.food = food;
         this.location = location;
     }
-
     public Animal() {
+
     }
+
 
     public String getFood() {
         return food;

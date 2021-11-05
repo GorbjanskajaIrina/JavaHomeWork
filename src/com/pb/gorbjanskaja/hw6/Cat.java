@@ -12,6 +12,9 @@ public class Cat extends Animal {
     public void makeNoise() {
         System.out.println("Кот мяукает");
     }
+    public void eat() {
+        System.out.println("Кот ест");
+    }
 
 
 
