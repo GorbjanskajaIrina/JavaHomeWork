@@ -12,7 +12,10 @@ public class VetClinic {
         Cat cat3 = new Cat("Kitekat", "Квартира", 22);
 
         animal.makeNoise();
+
         cat1.makeNoise();
+
+        cat1.eat();
 
         System.out.println("hashCodes котов:");
         System.out.println(cat1.hashCode());

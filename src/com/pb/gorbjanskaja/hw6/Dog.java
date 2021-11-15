@@ -10,12 +10,14 @@ public class Dog extends Animal {
         this.petTreat = petTreat;
     }
 
-
+    @Override
     public void makeNoise() {
         System.out.println("Собака лает");
     }
+
+    @Override
     public void eat() {
-        System.out.println("Собака ест");
+        System.out.println("Собака  ест");
     }
 
     @Override

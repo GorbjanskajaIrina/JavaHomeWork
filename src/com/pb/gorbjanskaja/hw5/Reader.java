@@ -27,8 +27,8 @@ public class Reader {
         System.out.println(fullName + " взял " + numberOfBooks + " книг" );
     }
 
-    public void takeBook(String ... titles) {
-        System.out.println(fullName + " взял: " );
+    public void takeBook(String... titles) {
+        System.out.println(fullName + " взял книги: " );
         for (String title: titles)
             System.out.println(title);
     }
@@ -39,7 +39,8 @@ public class Reader {
     }
 
     public void returnBook(int numberOfBooks) {
-        System.out.println(fullName + " вернул " + numberOfBooks + " книг" );
+        System.out.println(fullName + " вернул "
+                + numberOfBooks + " книг" );
     }
 
     public void returnBook(String...titles) {

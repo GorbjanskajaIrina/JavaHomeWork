@@ -9,11 +9,13 @@ public class Cat extends Animal {
         super(food, location);
         this.caughtMouse = caughtMouse;
     }
+    @Override
     public void makeNoise() {
         System.out.println("Кот мяукает");
     }
+    @Override
     public void eat() {
-        System.out.println("Кот ест");
+        System.out.println("Кот ест " + food);
     }
 
 

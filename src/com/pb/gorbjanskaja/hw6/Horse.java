@@ -12,12 +12,13 @@ public class Horse extends Animal {
         this.pedigree = pedigree;
     }
 
-
+    @Override
     public void makeNoise() {
         System.out.println("Лошадка ржет");
     }
+    @Override
     public void eat() {
-        System.out.println("Лошадка ест");
+        System.out.println("Лошадка ест" + food);
     }
 
     @Override

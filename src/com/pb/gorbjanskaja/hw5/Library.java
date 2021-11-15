@@ -4,9 +4,10 @@ public class Library {
     public static void main(String[] args){
 
 
-        Reader reader1 = new Reader("Добров И.В.", 72, "ф-т математики", "06.07.1994", "0976572000");
+        Reader reader1 = new Reader("Добров И.В.", 72, "ф-т математики",
+                "06.07.1994", "0976572000");
 
-        reader1.setFullName("Петров В.В.");
+        //reader1.setFullName("Петров В.В.");
         reader1.takeBook(3);
         reader1.takeBook("Приключения", " Словарь", " Энциклопедия");
         reader1.takeBook(new Book("Приключения", "Иванов И.И.", 2000),
