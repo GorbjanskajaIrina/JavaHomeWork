@@ -40,10 +40,7 @@ public class OlineShop {
             System.out.println("Ошибка при входе 1   " + e1.getMessage());
             e1.printStackTrace();
         }
-        /*catch (WrongPasswordException e1) {
-            System.out.println("Ошибка при входе 2   " + e1.getMessage());
-            e1.printStackTrace();
-        }*/
+
 
 
     }
