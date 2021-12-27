@@ -38,12 +38,12 @@ public class Main {
                         "Dnepr"));
 
         while (true) {
-            System.out.println("Phone book" + "\n" +
-                    "1 - to add a contact " + "\n" +
-                    "2 - to delete a contact " + "\n" +
-                    "3 - to search for a contact " + "\n" +
-                    "4 - for output sorted by the specified field " + "\n" +
-                    "5 - for editing element fields" + "\n" +
+              System.out.println("Phone book" + "\n" +
+                            "1 - to add a contact " + "\n" +
+                            "2 - to delete a contact " + "\n" +
+                            "3 - to search for a contact " + "\n" +
+                            "4 - for output sorted by the specified field " + "\n" +
+                            "5 - for editing element fields" + "\n" +
                     "Enter the number of the operation You need");
             Scanner init = new Scanner(System.in);
             int choice = init.nextInt();
