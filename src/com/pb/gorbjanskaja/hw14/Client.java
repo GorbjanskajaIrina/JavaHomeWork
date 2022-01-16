@@ -21,7 +21,6 @@ public class Client {
                 String message = scan.nextLine();
                 writer.println(message);
 
-
                 }
         }).start();
         String fromServer;

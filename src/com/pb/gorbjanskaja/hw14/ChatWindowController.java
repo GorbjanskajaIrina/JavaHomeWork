@@ -11,7 +11,6 @@ public class ChatWindowController {
     private TextArea textArea;
     static String forConnect;
 
-
     @FXML
     protected void handleSubmitButtonAction(ActionEvent event) {
         textArea.setText(textArea.getText() + "\n" + textField.getText());

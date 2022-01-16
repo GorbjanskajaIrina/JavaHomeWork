@@ -14,7 +14,6 @@ public class ChatWindow extends Application{
         Parent root = FXMLLoader.load(Paths.get("src/com/pb/gorbjanskaja/hw14/fxml_chat_window.fxml").toUri().toURL());
 
         Scene scene = new Scene(root);
-
         stage.setTitle("Chat");
         stage.setScene(scene);
         stage.show();

@@ -71,7 +71,6 @@ public class Server {
                 ex.printStackTrace();
             }
         }
-
         public void sendMessage(String message, int clientIndex) {
             try {
                 writer.println("Клиент " + clientIndex + ": " + message);

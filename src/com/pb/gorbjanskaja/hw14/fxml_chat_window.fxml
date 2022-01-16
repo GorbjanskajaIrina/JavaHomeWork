@@ -17,5 +17,4 @@
         <TextField fx:id="textField" layoutX="18.0" layoutY="332.0" prefHeight="38.0" prefWidth="432.0" />
         <TextArea fx:id="textArea" layoutX="18.0" layoutY="14.0" prefHeight="285.0" prefWidth="555.0" />
     </children>
-
 </Pane>
