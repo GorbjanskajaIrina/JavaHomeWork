@@ -18,13 +18,13 @@ public class Client {
         System.out.println("Введите сообщение: ");
         new Thread(() -> {
             while (true) {
-//                String message = scan.nextLine();
-//                writer.println(message);
-                writer.println(ChatWindowController.forConnect);
+                String message = scan.nextLine();
+                writer.println(message);
+
 
                 }
         }).start();
-        static String fromServer;
+        String fromServer;
 
         while ((fromServer = reader.readLine()) != null) {
             System.out.println(fromServer);
